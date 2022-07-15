@@ -19,9 +19,7 @@ public abstract class Animal {
 	}
 
 
-	public void maksNoise() {
-		System.out.println("소리를 냅니다!");
-	}
+	public abstract void maksNoise();
 	
 	public void eat() {
 		System.out.println("먹습니다.");
