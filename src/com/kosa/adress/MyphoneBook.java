@@ -11,7 +11,10 @@ public class MyphoneBook {
      String username = sc.next();
      
      
-     System.out.println("[메뉴선택]");
+    public static void menu() {
+        System.out.println("[메뉴선택]");
+        System.out.println("1.");
+    }
      
      
      
